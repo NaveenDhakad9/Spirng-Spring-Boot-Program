@@ -1,0 +1,18 @@
+dc:
+  ctscanRate: 3000
+  ecgRate: 600
+  xrayRate: 1000
+pi:
+  addrs: hyd
+  mobileNo: 123456
+  name: rajesh
+spring:
+  application:
+    name: BootIOCProj05-DataInjection-UsingValueAnnotation
+    
+---
+spring:
+ config:
+  import: 
+   - myfile.yml
+   - myfile1.properties

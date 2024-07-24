@@ -1,0 +1,59 @@
+#Employee Info
+org:
+ nt:
+  eno: 101
+  ename: raja
+  phone: 1111111
+  location: hyd
+  
+  addrs:
+   name: rajat
+   address: hyd
+   pinCode: 451561
+   phoneNumber: 556561651 
+   
+  favColor: 
+   - red
+   - yellow
+   - green
+   
+  nick-name: 
+   - naveen
+   - vikas
+   - chinu
+   
+  phoneNumber: [9999999,8888888,7777777]
+  
+  id-details:
+   voterId: 4654654
+   aadharId: 56565465
+   passport: 565456465 
+
+
+#Address details 
+#org.nt.addrs.name=Naveen
+#org.nt.addrs.address=Indore
+#org.nt.addrs.pinCode=455161
+#org.nt.addrs.phoneNumber=12345461 
+
+#Employee Info
+#org.nt.eno=101
+#org.nt.ename=raja
+
+#Array properties
+##org.nt.favColor[0]=red
+#org.nt.favColor[1]=blue
+#org.nt.favColor[2]=green
+   #or
+#org.nt.favcolor = red,green,blue #Inline syntax
+
+#list properties
+#org.nt.nick-name=bunty,rajesh,nitin
+
+#Set Propeties
+#org.nt.phone-number=9999999,8888888,7777777
+
+#Map properties
+#org.nt.idDetails.aadharId=asd554
+#org.nt.idDetails.voterId=4565
+#org.nt.idDetails.passPortId=5566544
